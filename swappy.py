@@ -46,8 +46,11 @@ def type5():
     print('x: {0} y: {1}\n'.format(x,y))
     print('------------------')
 
-def type6()
-
+def type6():
+    print('Type6')
+    x,y=10,20
+    x,y=y,x
+    print('x: {0} y: {1}\n'.format(x,y))
 
 type1()
 type2()
