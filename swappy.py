@@ -1,6 +1,6 @@
 
 
-mytuxle = ('x = x + y',
+mytuple = ('x = x + y',
            'y = x - y',
            'x = x - y',
            
@@ -18,4 +18,4 @@ mytuxle = ('x = x + y',
            'x = x + (~y) + 1')
 
 
-for i in mytuxle:
+for i in mytuple:
