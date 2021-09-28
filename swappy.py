@@ -19,3 +19,4 @@ mytuple = ('x = x + y',
 
 
 for i in mytuple:
+           eval(print(i))
