@@ -6,6 +6,8 @@ def type1(x,y):
     print('Type 1')
     print('resetting values')
     print('x: {0} y: {1}\n'.format(x,y))
+    
+    #logic
     x = x + y
     y = x - y
     x = x - y
@@ -18,6 +20,8 @@ def type2(x,y):
     print('Type 2')
     print('resetting values')
     print('x: {0} y: {1}\n'.format(x,y))
+    
+    #logic
     x = x * y
     y = x / y
     x = x / y
@@ -30,6 +34,8 @@ def type3(x,y):
     print('Type 3')
     print('resetting values')
     print('x: {0} y: {1}\n'.format(x,y))
+    
+    #logic
     x = (x & y) + (x | y)
     y = x + (~y) + 1
     x = x + (~y) + 1
@@ -42,6 +48,8 @@ def type4(x,y):
     print('Type 4')
     print('resetting values')
     print('x: {0} y: {1}\n'.format(x,y))
+    
+    #logic
     x = x ^ y
     y = x ^ y
     x = x ^ y
@@ -54,6 +62,8 @@ def type5(x,y):
     print('Type 5')
     print('resetting values')
     print('x: {0} y: {1}\n'.format(x,y))
+    
+    #logic
     x,y = y,x
     print('After swapping')
     print('x: {0} y: {1}\n'.format(x,y))
