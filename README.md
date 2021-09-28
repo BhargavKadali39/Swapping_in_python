@@ -17,6 +17,6 @@ I agree that the old swapping technique works everytime,but it also increases th
 So let's learn some new swapping tricks.
 
 Before going into the context lemme tell you the advantage of them,
-* Integrate it into your code makes less instances required.
+* Integrating it into your code can make use of less instances than normally required.
 * Improves logical thanking.
 * Less wastage of resources.
