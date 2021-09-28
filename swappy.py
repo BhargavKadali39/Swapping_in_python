@@ -7,7 +7,7 @@ def type1(x,y):
     print('resetting values')
     print('x: {0} y: {1}\n'.format(x,y))
     
-    #logic
+    # logic
     x = x + y
     y = x - y
     x = x - y
@@ -21,7 +21,7 @@ def type2(x,y):
     print('resetting values')
     print('x: {0} y: {1}\n'.format(x,y))
     
-    #logic
+    # logic
     x = x * y
     y = x / y
     x = x / y
@@ -49,7 +49,7 @@ def type4(x,y):
     print('resetting values')
     print('x: {0} y: {1}\n'.format(x,y))
     
-    #logical Swapping using xor
+    # logical Swapping using xor
     x = x ^ y
     y = x ^ y
     x = x ^ y
@@ -63,7 +63,7 @@ def type5(x,y):
     print('resetting values')
     print('x: {0} y: {1}\n'.format(x,y))
     
-    #logic
+    # This kind of logic is supported by python.
     x,y = y,x
     print('After swapping')
     print('x: {0} y: {1}\n'.format(x,y))
