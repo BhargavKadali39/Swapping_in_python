@@ -1,5 +1,6 @@
 
 def type1(x,y):
+    x,y=10,20
     print('Type 1')
     x = x + y
     y = x - y
@@ -9,6 +10,7 @@ def type1(x,y):
 
 
 def type2(x,y):
+    x,y=10,20
     print('Type 2')
     x = x * y
     y = x / y
@@ -18,6 +20,7 @@ def type2(x,y):
 
 
 def type3(x,y):
+    x,y=10,20
     print('Type 3')
     x = (x & y) + (x | y)
     y = x + (~y) + 1
@@ -27,6 +30,7 @@ def type3(x,y):
 
 
 def type4(x,y):
+    x,y=10,20
     print('Type 4')
     x = x ^ y
     y = x ^ y
@@ -36,6 +40,7 @@ def type4(x,y):
 
 
 def type5(x,y):
+    x,y=10,20
     print('Type 5')
     x,y = y,x
     print('x: {0} y: {1}\n'.format(x,y))
