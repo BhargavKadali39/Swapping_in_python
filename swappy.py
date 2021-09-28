@@ -35,7 +35,7 @@ def type3(x,y):
     print('resetting values')
     print('x: {0} y: {1}\n'.format(x,y))
     
-    #logic
+    # Using Bitwise addition and subtraction for swapping.
     x = (x & y) + (x | y)
     y = x + (~y) + 1
     x = x + (~y) + 1
@@ -49,7 +49,7 @@ def type4(x,y):
     print('resetting values')
     print('x: {0} y: {1}\n'.format(x,y))
     
-    #logic
+    #logical Swapping using xor
     x = x ^ y
     y = x ^ y
     x = x ^ y
